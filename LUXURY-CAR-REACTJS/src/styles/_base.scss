@@ -1,0 +1,10 @@
+/*
+ * General styles
+ */
+body,
+html {
+    font-family: $fontmain;
+    font-size  : $base-size;
+    height     : 100vh;
+    // overflow: hidden;
+}

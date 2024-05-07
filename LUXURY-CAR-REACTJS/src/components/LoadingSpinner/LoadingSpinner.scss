@@ -1,0 +1,11 @@
+.spiner-container {
+    height         : 100vh;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+
+    .spiner-text {
+        color: #36d7b7;
+    }
+}

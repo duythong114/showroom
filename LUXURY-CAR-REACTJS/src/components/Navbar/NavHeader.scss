@@ -1,0 +1,74 @@
+.topnav {
+    align-items     : center;
+    background-color: #767070 !important;
+    min-height      : 60px;
+
+    a {
+        float             : left;
+        color             : #f2f2f2;
+        text-align        : center;
+        height            : inherit;
+        text-decoration   : none;
+        font-size         : 25px;
+        font-weight       : 600;
+        // min-width      : 120px;
+
+        :hover {
+            // background-color: #ddd !important;
+            color: black !important;
+        }
+
+        .active {
+            // background-color: #04AA6D !important;
+            color: #78e7be !important;
+        }
+    }
+
+
+    .user-info {
+        height         : inherit;
+        display        : flex;
+        justify-content: flex-end;
+        color          : #ffc107;
+        align-items    : center;
+        margin-top     : 8px;
+        margin-right   : 10px;
+        text-align     : center;
+
+        .welcome-text {
+            color: #fff;
+        }
+
+        .user-role {
+            text-transform: uppercase;
+        }
+
+        .user-name {
+            margin-left   : 5px;
+            text-transform: uppercase;
+        }
+    }
+
+    .dropdown-menu {
+        width           : 250px !important;
+        top             : 110% !important;
+        background-color: #767070;
+
+        a {
+            margin-left: 5px;
+        }
+    }
+
+    .btn-customized {
+        background : #04AA6D !important;
+        height     : inherit;
+        border     : none;
+        margin-left: 10px;
+        width      : 80px;
+
+        i {
+            font-size: 20px;
+        }
+    }
+
+}

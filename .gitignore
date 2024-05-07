@@ -1,0 +1,8 @@
+production
+
+LUXURY-CAR-NODEJS/build
+LUXURY-CAR-NODEJS/node_modules
+LUXURY-CAR-NODEJS/.env
+
+LUXURY-CAR-REACTJS/node_modules
+LUXURY-CAR-REACTJS/.env

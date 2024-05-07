@@ -1,0 +1,49 @@
+.home-footer-container {
+    .map-footer {
+        background-image : url('../../assets/image/footer-map/map.jpg');
+        padding-top      : 50%;
+        width            : 100%;
+        background-repeat: no-repeat;
+        background-size  : cover;
+    }
+
+    .home-footer {
+        background-color: #E7E7E7;
+        padding         : 64px 16px;
+        text-align      : center;
+
+        .social-list {
+            font-size: 30px;
+
+            a {
+                text-decoration: none;
+                color          : rgba(0, 0, 0, 0.6);
+                padding        : 0 5px;
+                cursor         : pointer;
+
+                &:hover {
+                    color: rgba(0, 0, 0, 0.4);
+                }
+            }
+        }
+
+        .copyright {
+            margin-top: 15px;
+            font-size : 20px;
+            color     : rgba(0, 0, 0, 0.6);
+
+            button {
+                background-color: #E7E7E7;
+                margin-left     : 5px;
+                border          : none;
+                color           : #229AF5;
+                text-decoration : underline;
+
+                :hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
